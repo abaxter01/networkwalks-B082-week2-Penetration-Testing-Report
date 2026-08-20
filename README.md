@@ -1,5 +1,5 @@
 # Penetration Testing Report 
-## W2-PM-FINAL | CYBERSECURITY | NETWORKWALKS - Phase 1 & 2: Footprinting and Network Scanning 
+## 🛡️ W2-PM-FINAL | CYBERSECURITY | NETWORKWALKS - Phase 1 & 2: Footprinting and Network Scanning 
 
 | Report Field | Details |
 |--------------|---------|
@@ -20,7 +20,7 @@ Any misuse of the techniques or information described in this report is the resp
 
 ---
 
-## 2. Introduction
+## 2. Introduction 📖
 This report documents two practical penetration-testing activities. The first activity focused on reconnaissance and footprinting of the `networkwalks.com` domain using six Kali Linux tools: **WHOIS, WhatWeb, Nslookup, Curl, Wafw00f**, and **DNSRecon**. The second activity used **Zenmap** (the graphical interface for Nmap) to perform a ping scan of the tester's local network subnet, `192.168.43.0/24`, in order to identify live hosts and associated MAC-address information.
 
 The activities demonstrate the early stages of a penetration test, where a security professional gathers information before any deeper validation is attempted. The results can help establish an initial picture of the target's domain registration, DNS infrastructure, web technologies, HTTP configuration, defensive controls, and local network devices.
