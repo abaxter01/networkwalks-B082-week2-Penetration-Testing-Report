@@ -116,15 +116,51 @@ Command:  `dnsrecon -d networkwalks.com`
 
 DNSRecon identified SOA and NS records for ns6135.hostgator.com and ns6136.hostgator.com, an MX record pointing to mail.networkwalks.com at 192.232.216.135, an A record for the domain, two TXT records, and multiple SRV records for cPanel email discovery. The tool also reported BIND version 9.16.23-RH on the identified name servers and an error indicating that no DNSSEC answer was available.
 
+### 4.1.7 Reconnaisssance & Footprinting Summary
+| Category |	Key Observation|
+|----------|-----------------|
+| Domain/Registration | GoDaddy registrar; HostGator name servers; DNSSEC reported unsigned.|
+| Web Technology |	Apache; WordPress 7.0.4; WP Download Manager 3.3.58; jQuery 3.7.1.|
+| IP Resolution |	networkwalks.com resolved to 192.232.216.135. |
+| HTTP Response |	HTTP/2 200; WordPress REST API links and several response headers observed. |
+| WAF |	ModSecurity (SpiderLabs) detected. |
+| DNS |	SOA, NS, MX, A, TXT and SRV records observed; BIND version identified. |
+
+---
+### 4.2 Phase 2: Network Scanning & Discovery with Zenmap
+#### 4.2.1 
+For the network-scanning activity, Zenmap was used to perform a **ping scan** against the local subnet `192.168.43.0/24`. The supplied Nmap output shows that 256 IP addresses were scanned and **five hosts** were identified as active. The scan was a host-discovery exercise rather than a vulnerability or service-enumeration assessment.
+
+**Observed command:**  `nmap -T4 -F 192.168.43.0/24`
+
+Zenmap displayed the following live hosts. Hostnames are included only where they were returned by the scan.
+
+| Host | IP	Status | MAC Address | Vendor / Identification |
+|------|-----------|-------------|-------------------------|
+| 192.168.43.1 |	Up |	02:9D:6B:2B:12:3D |	Unknown |
+| 192.168.43.22 |	Up | 24:3F:75:40:71:86 |	Hui Zhou Gaoshengda Technology |
+| 192.168.43.174 (Redmi-Pad-SE) | Up |	6E:6D:72:57:9F:39 |	Unknown |
+| 192.168.43.241 (Redmi-Note-8-Pro)|	Up |	4C:63:71:19:A7:EF |	Xiaomi Communications |
+| 192.168.43.29	| Up |	Not shown in supplied text |	Not shown |
+
+The scan completed in approximately 5.24 seconds and reported five hosts up. The results demonstrate that several devices were visible on the local network, including a Redmi Pad SE, a Redmi Note 8 Pro, my local computer, and two additional IP addresses. The presence of a live host does not indicate that the device is compromised; it simply confirms that the host responded to the discovery scan.
 
 
 
 ---
 
 # Evidence
-| WHOIS |
+| Kali Tools | 
 |-------|
+| **WHOIS** |
 | <img width="1365" height="663" alt="whois" src="https://github.com/user-attachments/assets/f94f795c-a8d2-4874-ab4c-ad1225f3b78c" />|
+| **WhatWeb**|
+|<img width="1365" height="667" alt="whatweb" src="https://github.com/user-attachments/assets/fac369ec-59a7-4535-bdf0-58c808918fc6" />|
+| **Nslookup** |
+|<img width="1365" height="667" alt="nslookup" src="https://github.com/user-attachments/assets/45c94085-cd91-4c9c-9d06-4cf78175a53f" />|
+| **Curl** |
+|<img width="1365" height="666" alt="curl" src="https://github.com/user-attachments/assets/c21384d3-b56d-4ba9-b742-9ceab709c883" />|
+
 
 
 
