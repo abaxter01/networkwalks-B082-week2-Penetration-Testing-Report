@@ -198,7 +198,55 @@ The scan completed in approximately 5.24 seconds and reported five hosts up. The
 
 ## 7. Recommendations
 
+### 7.1 Information Security Enhancements
+**1.  Technology Disclosure Management**
+- Implement server signature suppression where operationally feasible
+- Review CMS and plugin version disclosure policies
+- Consider implementing custom error pages to minimize information leakage
 
+**2.  Web Application Security**
+- Maintain WordPress core and plugins at current supported versions
+- Implement regular security update procedures
+- Review plugin necessity and remove unused components
+
+**3.  HTTP Security Hardening**
+- Expand security header implementation (CSP, HSTS, X-Frame-Options)
+- Review and minimize unnecessary technical disclosures
+- Implement comprehensive security header policies
+
+### 7.2 DNS & Infrastructure Security
+**1.  DNS Security Enhancement**
+- Evaluate DNSSEC implementation requirements and benefits
+- Review public DNS record necessity and accuracy
+- Implement DNS monitoring for unauthorized changes
+  
+**2.  Web Application Firewall Optimization**
+- Maintain ModSecurity rule sets with regular updates
+- Implement comprehensive logging and monitoring
+- Review WAF configuration for false positive optimization
+
+### 7.3 Network Security Management
+**1.  Asset Inventory Management**
+- Correlate discovered hosts with authorized device inventory
+- Implement regular network discovery for baseline maintenance
+- Establish device onboarding and decommissioning procedures
+
+**2.  Unknown Device Investigation**
+- Investigate unidentified MAC vendor associations
+- Verify device ownership and network authorization
+- Implement network access control where appropriate
+
+---
+
+## 8. Conclusion
+
+During Week 2 of my Cybersecurity & Ethical Hacking internship, I completed practical activities covering footprinting, reconnaissance and network scanning.
+
+For the footprinting and network-scanning exercises, I collected information about the `networkwalks.com` domain and identified active hosts on my local network. The six Kali Linux tools provided complementary information: **WHOIS** exposed registration and name-server details; **WhatWeb** identified web technologies; **Nslookup** resolved the domain to an IP address; **Curl** displayed HTTP response information; **Wafw00f** detected ModSecurity; and **DNSRecon** provided additional DNS and service records.
+
+The Zenmap scan of `192.168.43.0/24` identified five live hosts, including devices identified as **Redmi-Pad-SE** and **Redmi-Note-8-Pro**. The results demonstrate how network discovery can establish an initial asset picture before deeper testing is performed.
+
+Overall, the exercises reinforced that reconnaissance and scanning are important early phases of penetration testing. They can reveal useful information about technology, infrastructure and connected devices without requiring exploitation. At the same time, the observations in this report should not be interpreted as confirmed vulnerabilities. Any subsequent security testing should remain within the authorized scope and should validate the security impact of individual findings.
 
 ---
 
@@ -233,11 +281,11 @@ Cybersecurity Professional B082 Intern
 
 LinkedIn: www.linkedin.com/in/anieka-baxter-b6156618b
 
-📚 **Program Information**
+---
+### 📚 Program Information
+**Program Name:** Cybersecurity at Networkwalks 
 
-Program Name: Cybersecurity at Networkwalks
-
-Week: 02 | Project: Penetration Testing Report | Repository: GitHub
+**Week:** 02 | **Project:** Penetration Testing Report | **Repository:** GitHub
 
 
 
