@@ -128,7 +128,7 @@ DNSRecon identified SOA and NS records for ns6135.hostgator.com and ns6136.hostg
 
 ---
 ### 4.2 Phase 2: Network Scanning & Discovery with Zenmap
-#### 4.2.1 
+
 For the network-scanning activity, Zenmap was used to perform a **ping scan** against the local subnet `192.168.43.0/24`. The supplied Nmap output shows that 256 IP addresses were scanned and **five hosts** were identified as active. The scan was a host-discovery exercise rather than a vulnerability or service-enumeration assessment.
 
 **Observed command:**  `nmap -T4 -F 192.168.43.0/24`
@@ -145,11 +145,15 @@ Zenmap displayed the following live hosts. Hostnames are included only where the
 
 The scan completed in approximately 5.24 seconds and reported five hosts up. The results demonstrate that several devices were visible on the local network, including a Redmi Pad SE, a Redmi Note 8 Pro, my local computer, and two additional IP addresses. The presence of a live host does not indicate that the device is compromised; it simply confirms that the host responded to the discovery scan.
 
+#### 4.2.1 Network Discovery Interpretation
+
+
 
 
 ---
 
-# Evidence
+# Appendix - Evidence Observed
+
 | Kali Tools | 
 |-------|
 | **WHOIS** |
