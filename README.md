@@ -160,6 +160,17 @@ The scan completed in approximately 5.24 seconds and reported five hosts up. The
 |<img width="1365" height="667" alt="nslookup" src="https://github.com/user-attachments/assets/45c94085-cd91-4c9c-9d06-4cf78175a53f" />|
 | **Curl** |
 |<img width="1365" height="666" alt="curl" src="https://github.com/user-attachments/assets/c21384d3-b56d-4ba9-b742-9ceab709c883" />|
+| **Wafw00f** |
+| <img width="1365" height="667" alt="wafw00f" src="https://github.com/user-attachments/assets/35aca4ca-4484-4ae0-80af-5d671e632d00" />|
+| **Dnsrecon** |
+|<img width="1364" height="665" alt="dnsrecon" src="https://github.com/user-attachments/assets/46bc281c-3800-42ea-b6c4-fd8fd09479d0" />|
+
+---
+
+| Zenmap | 
+|-------|
+| <img width="1354" height="540" alt="Screenshot 2026-08-18 203639" src="https://github.com/user-attachments/assets/c5d8825d-e61a-4b99-9e94-92979e024d10" /> |
+
 
 
 
