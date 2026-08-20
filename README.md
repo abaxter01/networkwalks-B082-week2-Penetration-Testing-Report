@@ -273,6 +273,8 @@ Overall, the exercises reinforced that reconnaissance and scanning are important
 |-------|
 | <img width="1354" height="540" alt="Screenshot 2026-08-18 203639" src="https://github.com/user-attachments/assets/c5d8825d-e61a-4b99-9e94-92979e024d10" /> |
 
+> END OF REPORT
+
 ---
 ## 👤 Author
 **Anieka Baxter**
