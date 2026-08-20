@@ -225,6 +225,20 @@ The scan completed in approximately 5.24 seconds and reported five hosts up. The
 |-------|
 | <img width="1354" height="540" alt="Screenshot 2026-08-18 203639" src="https://github.com/user-attachments/assets/c5d8825d-e61a-4b99-9e94-92979e024d10" /> |
 
+---
+## 👤 Author
+**Anieka Baxter**
+
+Cybersecurity Professional B082 Intern
+
+LinkedIn: www.linkedin.com/in/anieka-baxter-b6156618b
+
+📚 **Program Information**
+
+Program Name: Cybersecurity at Networkwalks
+
+Week: 02 | Project: Penetration Testing Report | Repository: GitHub
+
 
 
 
