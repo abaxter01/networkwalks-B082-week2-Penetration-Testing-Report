@@ -166,7 +166,7 @@ The scan completed in approximately 5.24 seconds and reported five hosts up. The
 
 ---
 
-## 5. Risk Analysis / Impact
+## 5. Risk Analysis / Impact 🚨
 
 |# |	Finding / Observation |	Evidence |	Potential Impact |	Risk |
 |--|------------------------|----------|-------------------|-------|
@@ -184,7 +184,7 @@ The scan completed in approximately 5.24 seconds and reported five hosts up. The
 
 ---
 
-## 6. Security Strengths Observed
+## 6. Security Strengths Observed 🔐
 
 |Security Control| Implementation Status | Assessment |
 |----------------|-----------------------|------------|
@@ -196,7 +196,7 @@ The scan completed in approximately 5.24 seconds and reported five hosts up. The
 
 ---
 
-## 7. Recommendations
+## 7. Recommendations 💡
 
 ### 7.1 Information Security Enhancements
 **1.  Technology Disclosure Management**
@@ -238,7 +238,7 @@ The scan completed in approximately 5.24 seconds and reported five hosts up. The
 
 ---
 
-## 8. Conclusion
+## 8. Conclusion 🎯
 
 During Week 2 of my Cybersecurity & Ethical Hacking internship, I completed practical activities covering footprinting, reconnaissance and network scanning.
 
