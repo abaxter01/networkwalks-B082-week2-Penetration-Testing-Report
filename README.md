@@ -43,7 +43,7 @@ The activities demonstrate the early stages of a penetration test, where a secur
 
 ---
 
-## 4. Technical Assessment Activities 🏗️
+## 4. Technical Assessments Performed 🏗️
 ### 4.1 Phase 1: Reconnaissance & Footprinting
 
 #### 4.1.1 WHOIS
